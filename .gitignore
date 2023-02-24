@@ -43,10 +43,6 @@ local.properties
 buck-out/
 \.buckd/
 *.keystore
-      
-
-# TypeScript build file
-dist
 
 # Bundle artifact
 *.jsbundle
