@@ -8,8 +8,8 @@
     "jsx": "react",                     /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
     "declaration": true,                   /* Generates corresponding '.d.ts' file. */
     "declarationMap": false,                /* Generates a sourcemap for each corresponding '.d.ts' file. */
-    "outDir": "src/dist",                        /* Redirect output structure to the directory. */
-    "rootDir": "src/js",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+    "outDir": "dist",                        /* Redirect output structure to the directory. */
+    "rootDir": "js",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
     "types":["jest"],
     /* Strict Type-Checking Options */
     "strict": true,                           /* Enable all strict type-checking options. */
@@ -20,7 +20,7 @@
   "exclude": [
     "node_modules",
     "**/__test__/**/*",
-    "src/typings",
+    "typings",
     "example/**/*"
   ]
 }
