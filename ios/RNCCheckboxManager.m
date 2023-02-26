@@ -6,12 +6,12 @@
 
 #import "RNCCheckboxManager.h"
 #import "RNCCheckbox.h"
-#import "RNCCheckbox-Swift.h"
 
 #import <React/RCTBridge.h>
 #import <React/RCTEventDispatcher.h>
 #import <React/UIView+React.h>
 #import <React/RCTConvert.h>
+#import <RNCCheckbox/RNCCheckbox-Swift.h>
 
 @implementation RNCCheckboxManager
 
