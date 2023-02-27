@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
 
   s.description  = package['description']
+  s.platform     = :ios, "9.0"
 
   s.platforms = { :ios => "9.0", :tvos => "12.4" }
 
-  s.source       = { :git => "https://github.com/vbozellipilotly/react-native-checkbox-tv.git", :tag => "develop" }
-  s.source_files  = "ios/**/*.{h,m,swift}"
-  s.public_header_files = 'ios/**/*..h'
-
+  s.source       = { :git => "https://github.com/react-native-community/react-native-checkbox.git", :tag => "develop" }
+  s.source_files  = "ios/**/*.{h,m}"
+  s.dependency 'BEMCheckBox', '~> 1.4'
   s.dependency "React-Core"
 
 end

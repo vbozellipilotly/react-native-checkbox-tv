@@ -5,7 +5,7 @@
 //  Created by nicholaslee on 2020/05/09.
 //  Copyright © 2020 Facebook. All rights reserved.
 //
-#import "RNCCheckbox-Swift.h"
+#import "BEMCheckBox.h"
 #import <React/RCTComponent.h>
 
 @interface RNCCheckbox: BEMCheckBox
